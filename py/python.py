@@ -3,4 +3,9 @@
 
 _author_ = 'lilu'
 
-print('hello')
+def hello(test):
+  print('hello'+test)
+
+
+if __name__ == '__main__':
+  hello('lilu')
